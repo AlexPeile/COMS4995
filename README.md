@@ -1,3 +1,6 @@
 # COMS4995
 ## Ideas:
-- 1. A library for NLP emotional analysis for English-language text
+- A library for NLP emotional analysis for English-language text
+- A Python-to-LaTeX document conversion tool
+- Visual economic models for international trade
+- Browser plug-in to display hover-over info for YouTube links
