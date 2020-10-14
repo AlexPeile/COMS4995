@@ -7,7 +7,7 @@ install:
   - npm install mocha
  
  script:
-  - mocha test/test.js
+  - npm test
 
 branches:
   only:
