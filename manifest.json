@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "EyeLock",
+  "description": "A browser-tab focus-monitor for educators",
+  "version": "1.0",
+  "default_locale": "en",
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ]
+}
