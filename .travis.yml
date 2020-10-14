@@ -5,6 +5,9 @@ node_js:
 
 install:
   - npm install mocha
+ 
+ script:
+  - mocha
 
 branches:
   only:
