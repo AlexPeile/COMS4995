@@ -1,0 +1,23 @@
+{
+  "name": "eyelock",
+  "version": "1.0.0",
+  "description": "a chrome extension that monitors tab focus",
+  "main": "background.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexPeile/EyeLock.git"
+  },
+  "author": "AlexPeile",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AlexPeile/EyeLock/issues"
+  },
+  "homepage": "https://github.com/AlexPeile/EyeLock#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
+}

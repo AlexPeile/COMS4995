@@ -4,9 +4,12 @@ node_js:
   - 12.19.0
   
 install:
+  - npm install eslint --save-dev
   - npm install -g codecov
 
 script:
+  - npm run test
+  - npm run lint
   - codecov
   
 branches:
